@@ -21,4 +21,12 @@ class Post extends Model
     {
         return $this->morphMany(Comment::class, 'model');
     }
+
+    /**
+     * Get all of the tags for the post.
+     */
+    public function tags()
+    {
+        return $this->morphToMany(Tag::class, 'model', 'model_has_tags');
+    }
 }
