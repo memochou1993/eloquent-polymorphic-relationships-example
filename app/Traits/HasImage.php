@@ -6,7 +6,7 @@ use App\Image;
 
 trait HasImage {
     /**
-     * Get the page's image.
+     * Get the model's image.
      */
     public function image()
     {

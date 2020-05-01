@@ -6,7 +6,7 @@ use App\Tag;
 
 trait HasTags {
     /**
-     * Get all of the tags for the post.
+     * Get all of the tags for the model.
      */
     public function tags()
     {

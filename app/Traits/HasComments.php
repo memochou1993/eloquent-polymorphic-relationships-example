@@ -6,7 +6,7 @@ use App\Comment;
 
 trait HasComments {
     /**
-     * Get all of the post's comments.
+     * Get all of the model's comments.
      */
     public function comments()
     {
